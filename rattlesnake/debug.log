@@ -1,0 +1,70 @@
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 11 LIMIT 21; args=(11,)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 11 LIMIT 21; args=(11,)
+(0.219) UPDATE "app_student" SET "name" = 'g', "identityNumber" = 'sdsdsdfsd', "address" = 'sg', "department" = 'gsdgsdgd', "created_at" = '2021-09-04 07:57:39.391550', "updated_at" = '2021-09-04 08:06:17.700928' WHERE "app_student"."id" = 11; args=('g', 'sdsdsdfsd', 'sg', 'gsdgsdgd', '2021-09-04 07:57:39.391550', '2021-09-04 08:06:17.700928', 11)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 11 LIMIT 21; args=(11,)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 11 LIMIT 21; args=(11,)
+(0.235) DELETE FROM "app_student" WHERE "app_student"."id" IN (11); args=(11,)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.312) INSERT INTO "app_student" ("name", "identityNumber", "address", "department", "created_at", "updated_at") VALUES ('sdfdsfsdf', 'sdfsdf', 'sfsf', 'dsf', '2021-09-04 08:43:14.469739', '2021-09-04 08:43:14.469739'); args=['sdfdsfsdf', 'sdfsdf', 'sfsf', 'dsf', '2021-09-04 08:43:14.469739', '2021-09-04 08:43:14.469739']
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.093) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 12 LIMIT 21; args=(12,)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 12 LIMIT 21; args=(12,)
+(0.312) UPDATE "app_student" SET "name" = 'sdfdsf', "identityNumber" = 'sdfsdf', "address" = 'sfsf', "department" = 'dsf', "created_at" = '2021-09-04 08:43:14.469739', "updated_at" = '2021-09-04 08:47:06.364703' WHERE "app_student"."id" = 12; args=('sdfdsf', 'sdfsdf', 'sfsf', 'dsf', '2021-09-04 08:43:14.469739', '2021-09-04 08:47:06.364703', 12)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 12 LIMIT 21; args=(12,)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 12 LIMIT 21; args=(12,)
+(0.203) UPDATE "app_student" SET "name" = 's1dfdsf', "identityNumber" = 'sdfsdf', "address" = 'sfsf', "department" = 'dsf', "created_at" = '2021-09-04 08:43:14.469739', "updated_at" = '2021-09-04 08:47:12.362008' WHERE "app_student"."id" = 12; args=('s1dfdsf', 'sdfsdf', 'sfsf', 'dsf', '2021-09-04 08:43:14.469739', '2021-09-04 08:47:12.362008', 12)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+(0.375) INSERT INTO "app_student" ("name", "identityNumber", "address", "department", "created_at", "updated_at") VALUES ('l', 'll', 'll', 'lll', '2021-09-04 08:55:58.383756', '2021-09-04 08:55:58.383756'); args=['l', 'll', 'll', 'lll', '2021-09-04 08:55:58.383756', '2021-09-04 08:55:58.383756']
+(0.016) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 13 LIMIT 21; args=(13,)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 13 LIMIT 21; args=(13,)
+(0.172) DELETE FROM "app_student" WHERE "app_student"."id" IN (13); args=(13,)
+(0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+2021-09-04 14:36:30,571 DEBUG (0.016) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-04 14:36:30,649 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-04 14:36:40,285 DEBUG (0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+2021-09-04 14:37:01,069 DEBUG (0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 12 LIMIT 21; args=(12,)
+2021-09-04 14:37:02,717 DEBUG (0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student" WHERE "app_student"."id" = 12 LIMIT 21; args=(12,)
+2021-09-04 14:37:02,871 DEBUG (0.141) DELETE FROM "app_student" WHERE "app_student"."id" IN (12); args=(12,)
+2021-09-04 14:37:02,899 DEBUG (0.000) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+2021-09-04 14:37:36,210 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-04 14:37:36,226 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-04 14:37:38,947 (0.016) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
+2021-09-04 14:37:44,204 (0.359) INSERT INTO "app_student" ("name", "identityNumber", "address", "department", "created_at", "updated_at") VALUES ('zc', 'sasfasfa', 'f', 'zxc', '2021-09-04 09:07:43.843133', '2021-09-04 09:07:43.843133'); args=['zc', 'sasfasfa', 'f', 'zxc', '2021-09-04 09:07:43.843133', '2021-09-04 09:07:43.843133']
+2021-09-04 14:37:44,251 (0.016) SELECT "app_student"."id", "app_student"."name", "app_student"."identityNumber", "app_student"."address", "app_student"."department", "app_student"."created_at", "app_student"."updated_at" FROM "app_student"; args=()
