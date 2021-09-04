@@ -1,0 +1,24 @@
+<h1>Student Form</h1>
+<form method="POST">{% csrf_token %}
+    <table>
+        <tr>
+            <td>Title</td>
+            <td>:</td>
+            <td>{{ form.title}}</td>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>:</td>
+            <td>{{ form.content}}</td>
+        </tr>
+        <tr>
+            <td>Urgency</td>
+            <td>:</td>
+            <td>{{ form.urgency }}</td>
+        </tr>
+   
+        <tr>
+            <td><input type="submit" value="Save"></td>
+        </tr>
+    </table>
+</form>

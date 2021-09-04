@@ -3,11 +3,11 @@ from django.urls import reverse
 
 
 # Create your models here.
-class Student(models.Model):
-    name = models.CharField(max_length=200, null=False)
-    identityNumber = models.CharField(max_length=200, null=False)
-    address = models.CharField(max_length=200, null=True)
-    department = models.CharField(max_length=200, null=True)
+class Notes(models.Model):
+    title = models.CharField(max_length=200, null=False)
+    content = models.CharField(max_length=200, null=False)
+    urgency = models.CharField(max_length=200, null=True)
+ 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
