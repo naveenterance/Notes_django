@@ -5,6 +5,8 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from django.views import View
 from .models import Notes
+import re
+from django.db import connection
 
 # Create your views here.
 
@@ -38,6 +40,8 @@ class MyView(View):
 
         f = open("debug.log", "r")
 
+        line2=""
+        p1=""
 
         line_number = 0
         list_of_results = []
@@ -49,10 +53,41 @@ class MyView(View):
                 # For each line, check if line contains the string
                 line_number += 1
                 if insert in line:
-                # If yes, then add the line number & line as a tuple in the list
-                    list_of_results.append(("<h1>Added<h1>",line.rstrip()))
+                    start = line.find("(\'") + len("(\'")
+
+                    end = line.find("\',")
+
+                    line1 = line[start:end]
+
+                    line1= "<h1>Added<h1>" + line1
+
+                    line2 = line2 + line1
+                  
+
+
+                                    
                 if delete in line:
-                    list_of_results.append(("<h1>Deleted<h1>",line.rstrip()))
-            # Return list of tuples containing line numbers and lines where string is found
-        return HttpResponse("<h5>%s<h5>"%list_of_results)
+
+                    start = line.find("IN (") + len("IN (")
+
+                    end = line.find("); ")
+
+                    line1 = line[start:end]
+
+                    
+
+                    line1= "<h1>Deleted<h1>" + line1
+
+                    line2 = line2 + line1
+
+                    for p in Notes.objects.raw('SELECT id,title FROM app_notes  '):
+                        p1=p1+p
+         
+
+                  
+                
+                  
+
+            
+        return HttpResponse("<h5>%s<h5>"%row)
                
