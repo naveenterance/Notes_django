@@ -37,7 +37,7 @@ class MyView(View):
 
     def get(self, request, *args, **kwargs):
         insert='INSERT'
-        delete='DELETE'
+        delete='+'
 
         f = open("debug.log", "r")
 
@@ -69,13 +69,11 @@ class MyView(View):
                                     
                 if delete in line:
 
-                    start = line.find("IN (") + len("IN (")
+                    start = line.find("+") + len("+")
 
-                    end = line.find("); ")
+                    end = line.find("++")
 
                     line1 = line[start:end]
-
-                    
 
                     line1= "<h1>Deleted<h1>" + line1
 

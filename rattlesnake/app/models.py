@@ -1,6 +1,7 @@
 from django.db import models
 from django.urls import reverse
-
+from django.db.models.signals import pre_delete
+from django.dispatch import receiver
 
 # Create your models here.
 class Notes(models.Model):
@@ -20,10 +21,14 @@ class Notes(models.Model):
         return reverse('notes_edit', kwargs={'pk': self.pk})
 
 
-   # def delete_model(modeladmin, request, queryset):
-   #     for obj in queryset:
-   #     filename=obj.profile_name+".xml"
-   #     os.remove(os.path.join(obj.type,filename))
-   #     obj.delete()
+@receiver(pre_delete,sender=Notes)
+def h(sender,instance,**kwargs):
+    print(instance.title)
+    f = open("debug.log", "a")
+    f.write("+")
+    f.write(instance.title)
+    f.write("++")
+    f.close()
 
 
+    
