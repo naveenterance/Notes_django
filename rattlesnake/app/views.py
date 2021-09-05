@@ -4,6 +4,7 @@ from django.views.generic import ListView, DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from django.views import View
+from django.views import generic
 from .models import Notes
 import re
 from django.db import connection
@@ -80,14 +81,9 @@ class MyView(View):
 
                     line2 = line2 + line1
 
-                    for p in Notes.objects.raw('SELECT id,title FROM app_notes  '):
-                        p1=p1+p
-         
+                   
 
-                  
-                
-                  
 
-            
-        return HttpResponse("<h5>%s<h5>"%row)
+    
+        return HttpResponse("<h5>%s<h5>"%line2)
                
