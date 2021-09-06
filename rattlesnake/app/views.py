@@ -8,6 +8,7 @@ from django.views import generic
 from .models import Notes
 import re
 from django.db import connection
+from django.views.generic.base import TemplateView
 
 # Create your views here.
 
@@ -33,9 +34,10 @@ class NotesDelete(DeleteView):
     model = Notes
     success_url = reverse_lazy('notes_list')
 
-class MyView(View):
-
-    def get(self, request, *args, **kwargs):
+class MyView(TemplateView):
+    template_name = "../templates/app/log.html"
+    def get_context_data(self, **kwargs):
+        context=super().get_context_data(**kwargs)
         insert='INSERT'
         delete='+'
 
@@ -79,9 +81,9 @@ class MyView(View):
 
                     line2 = line2 + line1
 
-                   
 
-
-    
-        return HttpResponse("<h5>%s<h5>"%line2)
+        context['line']=line2               
+        
+        return context
+        #return HttpResponse("<h5>%s<h5>"%line2)
                
