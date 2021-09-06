@@ -12,4 +12,7 @@ urlpatterns = [
 
     path('log', MyView.as_view(), name='log'),
 
+
+   
+
 ]

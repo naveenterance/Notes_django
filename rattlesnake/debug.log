@@ -1,828 +1,125 @@
-2021-09-05 07:51:05,226 (0.000) 
+2021-09-06 14:51:13,294 (0.000) 
             SELECT name, type FROM sqlite_master
             WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
             ORDER BY name; args=None
-2021-09-05 07:51:05,241 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 07:51:17,075 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 07:51:17,091 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 07:51:51,610 (0.437) INSERT INTO "app_notes" ("title", "content", "urgency", "created_at", "updated_at") VALUES ('dsf', 'sdfsdfdsfsgsg', 'dfgf', '2021-09-05 02:21:51.172728', '2021-09-05 02:21:51.172728'); args=['dsf', 'sdfsdfdsfsgsg', 'dfgf', '2021-09-05 02:21:51.172728', '2021-09-05 02:21:51.172728']
-2021-09-05 07:51:51,657 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 07:52:05,090 (0.282) INSERT INTO "app_notes" ("title", "content", "urgency", "created_at", "updated_at") VALUES ('dsfsdfds', 'dfsf', 'fdsf', '2021-09-05 02:22:04.809101', '2021-09-05 02:22:04.809101'); args=['dsfsdfds', 'dfsf', 'fdsf', '2021-09-05 02:22:04.809101', '2021-09-05 02:22:04.809101']
-2021-09-05 07:52:05,121 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 07:52:53,866 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 07:52:53,882 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 07:53:35,711 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 07:53:35,727 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 07:53:38,180 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 07:55:50,938 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 07:55:50,954 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 07:58:00,235 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 07:58:00,259 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 07:58:23,126 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 07:58:23,138 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 07:58:51,448 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 07:58:51,464 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 08:00:34,288 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 08:00:34,364 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 08:01:40,838 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 08:01:40,854 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 08:02:06,355 (0.313) INSERT INTO "app_notes" ("title", "content", "urgency", "created_at", "updated_at") VALUES ('xdvcx', 'vcxvxcvvcxvv', 'cxv', '2021-09-05 02:32:06.027811', '2021-09-05 02:32:06.027811'); args=['xdvcx', 'vcxvxcvvcxvv', 'cxv', '2021-09-05 02:32:06.027811', '2021-09-05 02:32:06.027811']
-2021-09-05 08:02:06,449 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 08:03:17,213 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 08:03:17,229 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 08:06:51,896 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 08:06:51,990 (0.047) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 08:11:08,481 (0.015) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 08:11:08,481 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 08:11:57,054 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 08:11:57,070 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 08:19:23,320 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 08:19:23,336 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:05:11,571 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:05:11,602 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:06:45,301 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:06:45,317 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:07:25,595 (0.078) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 9 LIMIT 21; args=(9,)
-2021-09-05 09:07:28,516 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 9 LIMIT 21; args=(9,)
-2021-09-05 09:07:28,766 (0.235) DELETE FROM "app_notes" WHERE "app_notes"."id" IN (9); args=(9,)
-2021-09-05 09:07:28,953 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 09:16:07,212 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:16:07,259 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:17:49,487 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:17:49,487 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:19:04,467 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:19:04,479 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:21:31,119 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:21:31,135 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:23:31,553 (0.234) INSERT INTO "app_notes" ("title", "content", "urgency", "created_at", "updated_at") VALUES ('xvxcv', 'xcvxcv', 'xcv', '2021-09-05 03:53:31.319251', '2021-09-05 03:53:31.319251'); args=['xvxcv', 'xcvxcv', 'xcv', '2021-09-05 03:53:31.319251', '2021-09-05 03:53:31.319251']
-2021-09-05 09:23:31,631 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 09:24:18,584 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:24:18,631 (0.047) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:24:52,288 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:24:52,303 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:25:09,522 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:25:09,538 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:25:21,194 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:25:21,210 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:25:39,585 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:25:39,600 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:26:58,350 (0.016) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:26:58,350 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:27:11,210 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:27:11,225 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:27:53,741 (0.016) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:27:53,757 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:28:35,335 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:28:35,335 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:30:00,835 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:30:00,851 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:30:21,882 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 09:31:55,804 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:31:55,820 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:35:57,703 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:35:58,219 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:36:01,734 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:36:01,750 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:36:13,641 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:36:13,657 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:38:25,454 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:38:25,470 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:39:36,167 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:39:36,167 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:40:14,469 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:40:14,485 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:40:45,124 (0.015) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:40:45,124 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:41:00,202 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:41:00,217 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:45:14,078 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:45:14,093 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:45:45,146 (0.031) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 09:46:00,657 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:46:00,673 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:47:45,338 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:47:45,353 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:48:42,284 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:48:42,284 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:48:48,578 (0.015) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:48:48,578 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:49:03,944 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:49:03,960 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:50:09,158 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:50:09,158 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:50:33,444 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:50:33,444 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:52:03,561 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:52:03,577 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:52:10,860 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:52:10,876 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:52:14,741 (0.016) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:52:14,741 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:52:35,588 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:52:35,604 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:55:24,867 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:55:24,883 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:55:51,306 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:55:51,322 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:57:03,375 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:57:03,391 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:57:47,816 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:57:47,816 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:58:03,145 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:58:03,161 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:58:19,487 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:58:19,487 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 09:59:41,312 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 09:59:41,324 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:00:11,941 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:00:11,956 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:01:12,208 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:01:12,224 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:02:05,413 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:02:05,429 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:02:14,961 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:02:14,961 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:02:18,914 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:02:18,914 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:02:35,289 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:02:35,305 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:03:22,306 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:03:22,321 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:03:36,134 (0.015) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:03:36,134 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:04:13,386 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:04:13,401 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:05:05,903 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:05:05,919 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:05:30,122 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:05:30,138 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:06:32,671 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:06:32,687 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:07:00,813 (0.016) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:07:00,813 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:07:05,923 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:07:05,939 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:07:43,002 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:07:43,018 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:09:35,176 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 10:11:20,853 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 10:11:59,636 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:11:59,636 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:12:46,481 (0.016) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:12:46,481 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:21:01,711 (0.016) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:21:01,773 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:21:04,101 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 10:21:06,820 (0.000) SELECT title FROM Notes where id = 3 ; args=None
-2021-09-05 10:25:38,680 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:25:38,680 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:25:42,571 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:25:42,587 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:27:12,322 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:27:12,338 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:27:48,806 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:27:48,821 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:27:52,109 (0.000) SELECT title FROM Notes where id = 3 ; args=()
-2021-09-05 10:29:14,014 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:29:14,029 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:29:19,405 (0.015) SELECT title FROM app_notes where id = 3 ; args=()
-2021-09-05 10:30:02,887 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:30:02,903 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:30:03,387 (0.000) SELECT title FROM app_notes  ; args=()
-2021-09-05 10:30:08,408 (0.000) SELECT title FROM app_notes  ; args=()
-2021-09-05 10:30:13,067 (0.000) SELECT title FROM app_notes  ; args=()
-2021-09-05 10:30:15,156 (0.000) SELECT title FROM app_notes  ; args=()
-2021-09-05 10:31:42,449 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:31:42,511 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:31:42,855 (0.000) SELECT id,title FROM app_notes  ; args=()
-2021-09-05 10:33:51,426 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:33:51,442 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:33:51,598 (0.000) SELECT id,title FROM app_notes  ; args=()
-2021-09-05 10:35:31,513 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:35:31,529 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:38:14,754 (0.000) SELECT id,title FROM app_notes  ; args=()
-2021-09-05 10:38:46,167 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:38:46,182 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 10:39:00,564 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 10:39:00,564 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:30:46,013 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:30:46,075 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:32:45,481 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 11:33:48,496 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:33:48,527 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:39:34,780 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:39:34,811 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:42:40,975 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:42:41,053 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:43:18,288 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:46:03,262 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:46:03,324 (0.031) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:46:29,172 (0.000) select id,title FROM app_notes; args=()
-2021-09-05 11:46:45,494 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:46:45,510 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:51:27,281 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:51:27,328 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:51:46,228 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:51:46,240 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:51:51,071 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:52:37,966 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:52:37,966 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:52:39,359 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:52:48,047 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:52:48,063 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:52:48,500 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:54:23,558 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:54:23,574 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:54:29,199 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:54:29,199 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:54:38,435 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:56:32,764 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:56:32,780 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:56:32,951 (0.015) select * FROM app_notes; args=()
-2021-09-05 11:56:46,171 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:56:46,187 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:56:49,001 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:56:50,751 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:56:57,122 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:56:57,137 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:58:12,673 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 11:58:12,689 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 11:58:16,787 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:58:19,719 (0.000) select * FROM app_notes; args=()
-2021-09-05 11:58:58,318 (0.000) select * FROM app_notes; args=()
-2021-09-05 12:00:32,715 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 12:00:33,418 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 12:00:36,418 (0.000) select * FROM app_notes; args=()
-2021-09-05 12:00:38,512 (0.000) select * FROM app_notes; args=()
-2021-09-05 12:01:30,583 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 12:01:30,583 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 12:01:40,052 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 12:01:40,067 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 12:02:08,213 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 12:02:08,229 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 12:35:08,303 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 12:35:08,334 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 12:44:10,182 (0.015) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 12:44:10,229 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:06:11,486 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:06:11,533 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:06:15,151 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:06:15,167 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:06:23,543 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:06:23,559 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:06:46,375 (0.016) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:06:46,375 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:07:02,246 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 13:07:27,814 (0.047) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'naveen' LIMIT 21; args=('naveen',)
-2021-09-05 13:07:40,199 (0.016) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'naveen' LIMIT 21; args=('naveen',)
-2021-09-05 13:07:55,076 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'Naveen Terance' LIMIT 21; args=('Naveen Terance',)
-2021-09-05 13:08:10,622 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'Naveen' LIMIT 21; args=('Naveen',)
-2021-09-05 13:10:50,293 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:10:50,356 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:11:43,452 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:11:43,468 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:12:46,152 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'admin' LIMIT 21; args=('admin',)
-2021-09-05 13:12:54,320 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'admin' LIMIT 21; args=('admin',)
-2021-09-05 13:14:44,722 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:14:44,738 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:14:44,738 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'admin' LIMIT 21; args=('admin',)
-2021-09-05 13:14:55,862 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:14:55,878 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:14:55,878 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'naveen' LIMIT 21; args=('naveen',)
-2021-09-05 13:15:33,032 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:15:33,040 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:15:33,052 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'naveen' LIMIT 21; args=('naveen',)
-2021-09-05 13:15:41,161 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'naveen' LIMIT 21; args=('naveen',)
-2021-09-05 13:16:04,243 (0.188) INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES ('pbkdf2_sha256$216000$TuuIsPeKCovK$W0Wn2bBlJFBYG/O4H7zYYeBh38NWQNrjpvxgorZNXtw=', NULL, 1, 'naveen', '', '', 'naveenterance@gmail.com', 1, 1, '2021-09-05 07:46:03.619013'); args=['pbkdf2_sha256$216000$TuuIsPeKCovK$W0Wn2bBlJFBYG/O4H7zYYeBh38NWQNrjpvxgorZNXtw=', None, True, 'naveen', '', '', 'naveenterance@gmail.com', True, True, '2021-09-05 07:46:03.619013']
-2021-09-05 13:16:32,555 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 13:16:32,570 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 13:16:43,968 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'naveen' LIMIT 21; args=('naveen',)
-2021-09-05 13:16:44,499 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z' LIMIT 1; args=('khmtuje82nukbxd9c0ailj1iztq3pr3z',)
-2021-09-05 13:16:44,499 (0.000) BEGIN; args=None
-2021-09-05 13:16:44,499 (0.000) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'khmtuje82nukbxd9c0ailj1iztq3pr3z', 'e30:1mMmrU:VRR6oLAUMkrLiqC1CSmVO2zVewVRsz-UjvRf6XKBvrc', '2021-09-19 07:46:44.499498'; args=('khmtuje82nukbxd9c0ailj1iztq3pr3z', 'e30:1mMmrU:VRR6oLAUMkrLiqC1CSmVO2zVewVRsz-UjvRf6XKBvrc', '2021-09-19 07:46:44.499498')
-2021-09-05 13:16:44,749 (0.141) UPDATE "auth_user" SET "last_login" = '2021-09-05 07:46:44.608848' WHERE "auth_user"."id" = 1; args=('2021-09-05 07:46:44.608848', 1)
-2021-09-05 13:16:44,749 (0.000) BEGIN; args=None
-2021-09-05 13:16:44,749 (0.000) UPDATE "django_session" SET "session_data" = '.eJxVjMsOwiAQRf-FtSHAgDAu3fcbGpiZ2qqBpI-V8d-1SRe6veec-1J93tax3xaZ-4nVRVl1-t1KpofUHfA911vT1Oo6T0Xvij7oorvG8rwe7t_BmJfxW0MAL4WdlYSYgg-G2NIwkJiYrTOGXEKHDOBTjBgT8WCkAKC34YxRvT_Onzb5:1mMmrU:9xf6G3Ha1gnYCpDr85LVriXpJbbtI1rD6GV95STPcuQ', "expire_date" = '2021-09-19 07:46:44.749597' WHERE "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z'; args=('.eJxVjMsOwiAQRf-FtSHAgDAu3fcbGpiZ2qqBpI-V8d-1SRe6veec-1J93tax3xaZ-4nVRVl1-t1KpofUHfA911vT1Oo6T0Xvij7oorvG8rwe7t_BmJfxW0MAL4WdlYSYgg-G2NIwkJiYrTOGXEKHDOBTjBgT8WCkAKC34YxRvT_Onzb5:1mMmrU:9xf6G3Ha1gnYCpDr85LVriXpJbbtI1rD6GV95STPcuQ', '2021-09-19 07:46:44.749597', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:16:44,905 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:46:44.890223' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:46:44.890223', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:16:44,952 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:16:45,124 (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,)
-2021-09-05 13:16:50,979 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:46:50.979020' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:46:50.979020', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:16:50,979 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:16:51,197 (0.219) SELECT COUNT(*) AS "__count" FROM "auth_group"; args=()
-2021-09-05 13:16:51,197 (0.000) SELECT COUNT(*) AS "__count" FROM "auth_group"; args=()
-2021-09-05 13:16:51,213 (0.000) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" ORDER BY "auth_group"."name" ASC; args=()
-2021-09-05 13:16:51,479 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:46:51.463399' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:46:51.463399', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:16:51,479 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:16:54,345 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:46:54.329580' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:46:54.329580', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:16:54,345 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:16:54,345 (0.000) BEGIN; args=None
-2021-09-05 13:16:54,345 (0.000) SAVEPOINT "s5768_x1"; args=None
-2021-09-05 13:16:54,345 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'user') LIMIT 21; args=('auth', 'user')
-2021-09-05 13:16:54,360 (0.000) RELEASE SAVEPOINT "s5768_x1"; args=None
-2021-09-05 13:16:54,720 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:46:54.720209' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:46:54.720209', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:16:54,735 (0.015) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:16:59,524 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:46:59.524047' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:46:59.524047', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:16:59,524 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:16:59,539 (0.000) SELECT COUNT(*) AS "__count" FROM "auth_group"; args=()
-2021-09-05 13:16:59,539 (0.000) SELECT COUNT(*) AS "__count" FROM "auth_group"; args=()
-2021-09-05 13:16:59,539 (0.000) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" ORDER BY "auth_group"."name" ASC; args=()
-2021-09-05 13:17:06,948 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:47:06.948489' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:47:06.948489', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:17:06,964 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:17:06,964 (0.000) SELECT COUNT(*) AS "__count" FROM "auth_group"; args=()
-2021-09-05 13:17:06,964 (0.000) SELECT COUNT(*) AS "__count" FROM "auth_group"; args=()
-2021-09-05 13:17:06,964 (0.000) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" ORDER BY "auth_group"."name" ASC; args=()
-2021-09-05 13:17:10,367 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:47:10.351893' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:47:10.351893', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:17:10,367 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:17:10,414 (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,)
-2021-09-05 13:17:11,679 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:47:11.679894' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:47:11.679894', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:17:11,679 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:17:11,695 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 07:47:11.695520' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 07:47:11.695520', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 13:17:11,711 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 13:17:11,742 (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,)
-2021-09-05 15:11:37,108 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:11:37,296 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:11:58,930 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:12:13,563 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 6 LIMIT 21; args=(6,)
-2021-09-05 15:12:15,188 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 6 LIMIT 21; args=(6,)
-2021-09-05 15:12:15,188 (0.000) BEGIN; args=None
-2021-09-05 15:12:15,422 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 09:42:15.407398' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 09:42:15.407398', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 15:12:15,454 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 15:12:41,897 (0.016) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:12:42,147 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:12:47,147 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 6 LIMIT 21; args=(6,)
-2021-09-05 15:12:48,178 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 6 LIMIT 21; args=(6,)
-2021-09-05 15:12:48,194 (0.000) BEGIN; args=None
-2021-09-05 15:12:48,819 (0.531) DELETE FROM "app_notes" WHERE "app_notes"."id" IN (6); args=(6,)
-2021-09-05 15:12:50,600 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:13:16,459 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:13:16,474 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:14:23,261 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:14:23,309 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:14:32,435 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:14:32,443 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:14:43,300 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:14:47,574 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 7 LIMIT 21; args=(7,)
-2021-09-05 15:14:48,653 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 7 LIMIT 21; args=(7,)
-2021-09-05 15:14:48,653 (0.000) BEGIN; args=None
-dsf2021-09-05 15:14:48,778 (0.125) DELETE FROM "app_notes" WHERE "app_notes"."id" IN (7); args=(7,)
-2021-09-05 15:14:48,949 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:16:52,070 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:16:52,070 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:17:24,732 (0.015) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:17:24,732 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:17:27,560 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:17:46,673 (0.359) INSERT INTO "app_notes" ("title", "content", "urgency", "created_at", "updated_at") VALUES ('god', 'sdfsd', 'sdf', '2021-09-05 09:47:46.314164', '2021-09-05 09:47:46.314164'); args=['god', 'sdfsd', 'sdf', '2021-09-05 09:47:46.314164', '2021-09-05 09:47:46.314164']
-2021-09-05 15:17:46,704 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:17:49,234 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 11 LIMIT 21; args=(11,)
-2021-09-05 15:17:50,740 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 11 LIMIT 21; args=(11,)
-2021-09-05 15:17:50,740 (0.000) BEGIN; args=None
-+god+2021-09-05 15:17:50,740 (0.000) DELETE FROM "app_notes" WHERE "app_notes"."id" IN (11); args=(11,)
-2021-09-05 15:17:51,037 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:18:18,749 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:18:18,765 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:24:42,281 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:24:42,297 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:25:01,678 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:25:01,693 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:25:11,513 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:27:03,687 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:27:03,702 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:27:06,437 (0.016) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-05 09:57:06.421648' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-05 09:57:06.421648', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
-2021-09-05 15:27:06,452 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
-2021-09-05 15:27:16,826 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:27:16,826 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:29:57,835 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:29:57,851 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:30:53,926 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:30:53,942 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:31:04,491 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:31:04,507 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:31:17,450 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:31:17,465 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:31:57,906 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:31:57,921 (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:32:17,304 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:32:17,320 (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:32:43,262 (0.000) 
-            SELECT name, type FROM sqlite_master
-            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
-            ORDER BY name; args=None
-2021-09-05 15:32:43,278 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
-2021-09-05 15:33:26,957 (0.297) INSERT INTO "app_notes" ("title", "content", "urgency", "created_at", "updated_at") VALUES ('hell', 'asdasd', 'asdasd', '2021-09-05 10:03:26.660737', '2021-09-05 10:03:26.660737'); args=['hell', 'asdasd', 'asdasd', '2021-09-05 10:03:26.660737', '2021-09-05 10:03:26.660737']
-2021-09-05 15:33:27,191 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
-2021-09-05 15:33:29,753 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 12 LIMIT 21; args=(12,)
-2021-09-05 15:33:31,141 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 12 LIMIT 21; args=(12,)
-2021-09-05 15:33:31,141 (0.000) BEGIN; args=None
-+hell++2021-09-05 15:33:31,266 (0.062) DELETE FROM "app_notes" WHERE "app_notes"."id" IN (12); args=(12,)
-2021-09-05 15:33:31,360 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 14:51:13,341 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 14:52:43,831 (0.063) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:52:43,878 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:52:43,878 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:52:43,894 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:52:43,894 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:52:43,894 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:52:43,925 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:52:43,925 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:52:43,988 (0.047) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 09:22:43.925720' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 09:22:43.925720', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 14:52:44,503 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 14:54:30,120 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-06 14:54:30,136 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 14:54:33,531 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:33,531 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:33,531 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:33,531 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:33,547 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:33,547 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:33,547 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:33,547 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:33,562 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 09:24:33.547357' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 09:24:33.547357', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 14:54:33,562 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 14:54:52,494 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-06 14:54:52,509 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 14:54:54,573 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:54,573 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:54,573 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:54,573 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:54,589 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:54,589 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:54,589 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:54,589 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 14:54:54,589 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 09:24:54.589143' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 09:24:54.589143', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 14:54:54,604 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:05:21,823 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-06 15:05:21,870 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 15:05:27,560 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-06 15:05:27,576 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 15:06:24,539 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:06:25,555 (0.016) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 09:36:25.539409' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 09:36:25.539409', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:06:25,601 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:12:55,657 (0.125) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-06 15:12:57,246 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 15:13:15,881 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:13:17,594 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 09:43:17.592676' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 09:43:17.592676', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:13:17,599 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:33:01,474 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-06 15:33:01,520 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 15:35:10,340 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-06 15:35:10,356 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 15:35:12,487 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:35:13,503 (0.031) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 10:05:13.472111' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 10:05:13.472111', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:35:13,565 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:35:23,775 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:35:23,821 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 10:05:23.821945' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 10:05:23.821945', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:35:23,821 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:35:37,803 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:35:37,850 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 10:05:37.850086' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 10:05:37.850086', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:35:37,850 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:35:56,294 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:35:56,357 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 10:05:56.341823' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 10:05:56.341823', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:35:56,357 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:35:57,657 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:35:57,720 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 10:05:57.720321' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 10:05:57.720321', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:35:57,720 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:46:19,543 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2021-09-06 15:46:19,559 (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+2021-09-06 15:46:21,771 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:46:22,521 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 10:16:22.521355' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 10:16:22.521355', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:46:22,521 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:46:55,317 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 15:46:55,317 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 15:46:55,317 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 15:46:55,317 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 15:46:55,317 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 15:46:55,333 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 15:46:55,333 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 15:46:55,333 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" LIMIT 21; args=()
+2021-09-06 15:46:55,333 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-09-06 10:16:55.333317' AND "django_session"."session_key" = 'khmtuje82nukbxd9c0ailj1iztq3pr3z') LIMIT 21; args=('2021-09-06 10:16:55.333317', 'khmtuje82nukbxd9c0ailj1iztq3pr3z')
+2021-09-06 15:46:55,333 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:47:11,789 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:47:34,905 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 3 LIMIT 21; args=(3,)
+2021-09-06 15:48:47,016 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:51:16,603 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:51:57,156 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 1 LIMIT 21; args=(1,)
+2021-09-06 15:51:57,708 (0.547) UPDATE "app_notes" SET "title" = 'hug', "content" = 'Nulla nisl nunc, pellentesque rhoncus diam sit amet, scelerisque auctor neque. Donec dignissim felis nec felis elementum convallis. Proin ultrices ullamcorper odio id pretium. Duis eget lectus porta,', "urgency" = 'very', "created_at" = '2021-09-04 11:45:10.908089', "updated_at" = '2021-09-06 10:21:57.160239' WHERE "app_notes"."id" = 1; args=('hug', 'Nulla nisl nunc, pellentesque rhoncus diam sit amet, scelerisque auctor neque. Donec dignissim felis nec felis elementum convallis. Proin ultrices ullamcorper odio id pretium. Duis eget lectus porta,', 'very', '2021-09-04 11:45:10.908089', '2021-09-06 10:21:57.160239', 1)
+2021-09-06 15:52:02,977 (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:52:27,919 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 3 LIMIT 21; args=(3,)
+2021-09-06 15:52:32,381 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 3 LIMIT 21; args=(3,)
+2021-09-06 15:52:40,524 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 3 LIMIT 21; args=(3,)
+2021-09-06 15:52:40,904 (0.375) UPDATE "app_notes" SET "title" = 'sdf', "content" = 'Morbi aliquam posuere turpis sed maximus. Praesent tristique fermentum libero vel imperdiet. Maecenas pretium metus dolor, eget vehicula eros viverra sed. Morbi posuere tortor at lorem tempus, a iacul', "urgency" = 'sdfdsf', "created_at" = '2021-09-04 11:50:02.931064', "updated_at" = '2021-09-06 10:22:40.524628' WHERE "app_notes"."id" = 3; args=('sdf', 'Morbi aliquam posuere turpis sed maximus. Praesent tristique fermentum libero vel imperdiet. Maecenas pretium metus dolor, eget vehicula eros viverra sed. Morbi posuere tortor at lorem tempus, a iacul', 'sdfdsf', '2021-09-04 11:50:02.931064', '2021-09-06 10:22:40.524628', 3)
+2021-09-06 15:52:40,940 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+2021-09-06 15:52:56,004 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 8 LIMIT 21; args=(8,)
+2021-09-06 15:53:00,342 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 8 LIMIT 21; args=(8,)
+2021-09-06 15:53:00,667 (0.328) UPDATE "app_notes" SET "title" = 'dsfsdfds', "content" = 'Phasellus pharetra, magna vel viverra egestas, nisi turpis tincidunt arcu, in euismod leo velit vel ligula. Vivamus aliquam, orci sed lobortis ornare, sapien risus viverra diam, eu lacinia ligula just', "urgency" = 'fdsf', "created_at" = '2021-09-05 02:22:04.809101', "updated_at" = '2021-09-06 10:23:00.346149' WHERE "app_notes"."id" = 8; args=('dsfsdfds', 'Phasellus pharetra, magna vel viverra egestas, nisi turpis tincidunt arcu, in euismod leo velit vel ligula. Vivamus aliquam, orci sed lobortis ornare, sapien risus viverra diam, eu lacinia ligula just', 'fdsf', '2021-09-05 02:22:04.809101', '2021-09-06 10:23:00.346149', 8)
+2021-09-06 15:53:00,703 (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()

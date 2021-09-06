@@ -1,36 +1,41 @@
-<h1>Student List</h1>
-<a href="{% url 'notes_new' %}">Create New Student</a>
-<br>
-<a href="{% url 'log' %}">log</a>
-<br>
-<table border="1">
-    <tr>
-        <th>id</th>
-        <th>Title</th>
-        <th>Content</th>
-        <th>Urgency</th>
-        <th>Created at</th>
-        <th>Updated at</th>
-    </tr>
-    {% for notes in object_list %}
-    <tr>
-        <td>{{ notes.id }}</td>
-        <td>{{ notes.title }}</td>
-        <td>{{ notes.content }}</td>
-        <td>{{ notes.urgency }}</td>
-        <td>{{notes.created_at}}</td>
-        <td>{{notes.updated_at}}</td>
-        <td>
-            <a href="{% url 'notes_detail' notes.id %}">Detail</a>
-            <a href="{% url 'notes_edit' notes.id %}">Edit</a>
-            <a href="{% url 'notes_delete' notes.id %}">Delete</a>
+
+{% include './header.html' %}
+{% include './notes_header.html' %}
 
 
-        </td>
-    </tr>
-    {% empty %}
+{% for notes in object_list %}
 
-    <tr><td colspan="3"><b>Data is empty! Please, add data first.</b></td></tr>
-    {% endfor %}
-</table>
 
+    <div class="card p-3 mb-3 bg-secondary">
+        <blockquote class="blockquote mb-0 card-body">
+          <h5 class="card-title">{{ notes.title }}</h5>
+          <p>{{ notes.content }}</p>
+          <p>Last updated:{{notes.updated_at}} </p>
+          <a href="{% url 'notes_delete' notes.id %}"><i class="far fa-check-circle fa-lg" style="color: white;"></i></a>
+          &nbsp<a href="{% url 'notes_edit' notes.id %}"><i class="far fa-edit fa-lg" style="color: white;"></i></a>
+        </blockquote>
+
+    </div>
+
+{% empty %}
+
+       <div class="card p-3 mb-3 bg-secondary">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>No notes has been added yet
+
+              
+          </p>
+         
+        </blockquote>
+
+      </div>
+      
+{% endfor %}
+
+
+
+
+
+
+{% include "./notes_footer.html" %}
+{% include "./footer.html" %}
