@@ -6,7 +6,7 @@
 {% for notes in object_list %}
 
 
-    <div class="card p-3 mb-3 bg-secondary">
+    <div class="card p-3 mb-3 {{notes.urgency}}">
         <blockquote class="blockquote mb-0 card-body">
           <h5 class="card-title">{{ notes.title }}</h5>
           <p>{{ notes.content }}</p>
