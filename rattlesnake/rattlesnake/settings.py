@@ -133,8 +133,9 @@ LOGGING = {
     'disable_existing_loggers': False,
     'formatters': {
          'timestamp': {
-            'format': '{asctime} {message}',
+            'format': '{asctime}$$ {message}',
             'style': '{',
+             'datefmt' : "&&%y/%b/%Y@@ %H:%M"
         },
     },   
     'handlers': {

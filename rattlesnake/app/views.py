@@ -62,9 +62,26 @@ class MyView(TemplateView):
 
                     line1 = line[start:end]
 
-                    line1= "<h1>Added<h1>" + line1
+                    line1= "<h1>Added</h1>" + line1
 
-                    line2 = line2 + line1
+                    start = line.find("&&") + len("&&")
+
+                    end = line.find("@@")
+
+                    line_date = line[start:end]
+
+                    line_date ="<h1>At date:</h1>"+line_date
+
+                    start = line.find("@@") + len("@@")
+
+                    end = line.find("$$")
+
+                    line_time = line[start:end]
+
+                    line_time ="<h1>At time:</h1>"+line_time
+
+
+                    line2 = line2 + line1+line_date+line_time
                   
 
 
@@ -77,9 +94,26 @@ class MyView(TemplateView):
 
                     line1 = line[start:end]
 
-                    line1= "<h1>Deleted<h1>" + line1
+                    line1= "<h1>Deleted</h1>" + line1
 
-                    line2 = line2 + line1
+                    start = line.find("&&") + len("&&")
+
+                    end = line.find("@@")
+
+                    line_date = line[start:end]
+
+                    line_date ="<h1>At date:</h1>"+line_date
+
+                    start = line.find("@@") + len("@@")
+
+                    end = line.find("$$")
+
+                    line_time = line[start:end]
+
+                    line_time ="<h1>At time:</h1>"+line_time
+
+
+                    line2 = line2 + line1+line_date+line_time
 
 
         context['line']=line2               
