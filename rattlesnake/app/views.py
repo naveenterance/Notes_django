@@ -56,21 +56,6 @@ class MyView(TemplateView):
                 # For each line, check if line contains the string
                 line_number += 1
                 if insert in line:
-                    start = line.find("(\'") + len("(\'")
-
-                    end = line.find("\',")
-
-                    line1 = line[start:end]
-
-                    line1= "<h1>Added</h1>" + line1
-
-                    start = line.find("&&") + len("&&")
-
-                    end = line.find("@@")
-
-                    line_date = line[start:end]
-
-                    line_date ="<h1>At date:</h1>"+line_date
 
                     start = line.find("@@") + len("@@")
 
@@ -78,15 +63,59 @@ class MyView(TemplateView):
 
                     line_time = line[start:end]
 
-                    line_time ="<h1>At time:</h1>"+line_time
+                    line_time =" <div class='timeline' ><a  class='timeline-content' style=' color: rgb(1, 194, 163); border-color:rgb(1, 194, 163) ;'><div class='timeline-year' style=' color: rgb(1, 194, 163);' >"+line_time
 
 
-                    line2 = line2 + line1+line_date+line_time
+
+                    
+
+                    start = line.find("&&") + len("&&")
+
+                    end = line.find("@@")
+
+                    line_date = line[start:end]
+
+                    line_date ="</div><div class='timeline-icon'><i class='far fa-plus-square' style='color:rgb(1, 194, 163);'></i></div><h3 class='title'>Added </h3><h5>"+line_date
+
+
+                    start = line.find("(\'") + len("(\'")
+
+                    end = line.find("\',")
+
+                    line1 = line[start:end]
+
+                    line1= "</h5><p class='description'><h3>'" + line1 +"'</h3> </p></a></div>"
+
+                  
+
+
+                    line2 = line2 +line_time+line_date+ line1
                   
 
 
                                     
                 if delete in line:
+
+                    start = line.find("@@") + len("@@")
+
+                    end = line.find("$$")
+
+                    line_time = line[start:end]
+
+                    line_time =" <div class='timeline' ><a  class='timeline-content' style=' color: rgb(255, 45, 90); border-color: rgb(255, 45, 90);'><div class='timeline-year' style=' color: rgb(255, 45, 90);'>"+line_time
+
+
+
+                    
+
+                    start = line.find("&&") + len("&&")
+
+                    end = line.find("@@")
+
+                    line_date = line[start:end]
+
+                    line_date ="</div><div class='timeline-icon'><i class='far fa-trash-alt' style='color:rgb(255, 45, 90);'></i></div><h3 class='title'>Deleted </h3><h5>"+line_date
+
 
                     start = line.find("+") + len("+")
 
@@ -94,26 +123,13 @@ class MyView(TemplateView):
 
                     line1 = line[start:end]
 
-                    line1= "<h1>Deleted</h1>" + line1
+                    line1= "</h5><p class='description'><h3>" + line1 +" </h3></p></a></div>"
 
-                    start = line.find("&&") + len("&&")
-
-                    end = line.find("@@")
-
-                    line_date = line[start:end]
-
-                    line_date ="<h1>At date:</h1>"+line_date
-
-                    start = line.find("@@") + len("@@")
-
-                    end = line.find("$$")
-
-                    line_time = line[start:end]
-
-                    line_time ="<h1>At time:</h1>"+line_time
+                  
 
 
-                    line2 = line2 + line1+line_date+line_time
+                    line2 = line2 +line_time+line_date+ line1
+                  
 
 
         context['line']=line2               
