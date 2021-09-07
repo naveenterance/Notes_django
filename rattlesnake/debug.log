@@ -313,3 +313,61 @@
 &&21/Sep/2021@@ 11:58$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
 &&21/Sep/2021@@ 11:58$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
 &&21/Sep/2021@@ 11:59$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 11:59$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 12:00$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 1 LIMIT 21; args=(1,)
+&&21/Sep/2021@@ 14:13$$ (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+&&21/Sep/2021@@ 14:13$$ (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+&&21/Sep/2021@@ 14:13$$ (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 14:31$$ (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+&&21/Sep/2021@@ 14:31$$ (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+&&21/Sep/2021@@ 14:36$$ (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+&&21/Sep/2021@@ 14:36$$ (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+&&21/Sep/2021@@ 14:38$$ (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+&&21/Sep/2021@@ 14:38$$ (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+&&21/Sep/2021@@ 15:02$$ (0.063) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 15:02$$ (0.015) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 14 LIMIT 21; args=(14,)
+&&21/Sep/2021@@ 15:02$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 14 LIMIT 21; args=(14,)
+&&21/Sep/2021@@ 15:02$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 15:03$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 14 LIMIT 21; args=(14,)
+&&21/Sep/2021@@ 15:03$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 14 LIMIT 21; args=(14,)
+&&21/Sep/2021@@ 15:04$$ (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+&&21/Sep/2021@@ 15:04$$ (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+&&21/Sep/2021@@ 15:04$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 14 LIMIT 21; args=(14,)
+&&21/Sep/2021@@ 15:04$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 14 LIMIT 21; args=(14,)
+&&21/Sep/2021@@ 15:04$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 14 LIMIT 21; args=(14,)
+&&21/Sep/2021@@ 15:04$$ (0.141) UPDATE "app_notes" SET "title" = 'fsdfsdfsd', "content" = 'fsdfsdf', "urgency" = 'bg-warning', "created_at" = '2021-09-07 02:09:55.585060', "updated_at" = '2021-09-07 09:34:36.375198' WHERE "app_notes"."id" = 14; args=('fsdfsdfsd', 'fsdfsdf', 'bg-warning', '2021-09-07 02:09:55.585060', '2021-09-07 09:34:36.375198', 14)
+&&21/Sep/2021@@ 15:04$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 15:05$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 10 LIMIT 21; args=(10,)
+&&21/Sep/2021@@ 15:05$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 10 LIMIT 21; args=(10,)
+&&21/Sep/2021@@ 15:05$$ (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+&&21/Sep/2021@@ 15:05$$ (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+&&21/Sep/2021@@ 15:05$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 15:05$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 10 LIMIT 21; args=(10,)
+&&21/Sep/2021@@ 15:05$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 10 LIMIT 21; args=(10,)
+&&21/Sep/2021@@ 15:06$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 15:06$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 15 LIMIT 21; args=(15,)
+&&21/Sep/2021@@ 15:08$$ (0.016) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 15:08$$ (0.281) INSERT INTO "app_notes" ("title", "content", "urgency", "created_at", "updated_at") VALUES ('yu', 'http://127.0.0.1:8000/notes/', 'bg-warning', '2021-09-07 09:38:57.438606', '2021-09-07 09:38:57.439616'); args=['yu', 'http://127.0.0.1:8000/notes/', 'bg-warning', '2021-09-07 09:38:57.438606', '2021-09-07 09:38:57.439616']
+&&21/Sep/2021@@ 15:08$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
+&&21/Sep/2021@@ 15:09$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 17 LIMIT 21; args=(17,)
+&&21/Sep/2021@@ 15:09$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes" WHERE "app_notes"."id" = 17 LIMIT 21; args=(17,)
+&&21/Sep/2021@@ 15:09$$ (0.203) UPDATE "app_notes" SET "title" = 'retir', "content" = 'dfsdf', "urgency" = 'bg-primary', "created_at" = '2021-09-07 02:23:40.387187', "updated_at" = '2021-09-07 09:39:14.141603' WHERE "app_notes"."id" = 17; args=('retir', 'dfsdf', 'bg-primary', '2021-09-07 02:23:40.387187', '2021-09-07 09:39:14.141603', 17)
+&&21/Sep/2021@@ 15:09$$ (0.000) SELECT "app_notes"."id", "app_notes"."title", "app_notes"."content", "app_notes"."urgency", "app_notes"."created_at", "app_notes"."updated_at" FROM "app_notes"; args=()
